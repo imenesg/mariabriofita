@@ -6,9 +6,11 @@
   }
   
   .gallery {
-    background: #5f992da2 ;
+    background: #5f992d69 ;
     padding: 1rem;
     border-radius: 1rem;
+
+    z-index: 2;
 
   }
   
@@ -18,15 +20,6 @@
     counter-increment: gallery-cell;
   }
   
-  /* cell number */
-  /*.gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter("cu");
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  }*/
   .flickity-page-dots{
     width: 95%;
     margin: unset;
@@ -37,3 +30,4 @@
     visibility: hidden;
     
   }
+  

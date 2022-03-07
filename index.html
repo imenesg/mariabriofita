@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
@@ -26,12 +28,17 @@
 
     <title>MariaBriofita</title>
 
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/vetores.css">
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/card.css" />
     <link rel="stylesheet" href="assets/css/flickity.css" />
     <link rel="stylesheet" href="assets/css/plantas.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
   </head>
   <body>
+    
+    
     <header>
       <div class="container">
         <img src="assets/img/logomariabriofita.png" alt="Logo mariabriofita" />
@@ -39,11 +46,11 @@
     </header>
 
     <section class="plantas">
-
+      
        <!-- Flickity HTML init -->
     <div
     class="gallery js-flickity"
-    data-flickity-options='{ "freeScroll": true , "cellAlign": "left" , "contain": true}'
+    data-flickity-options='{ "freeScroll": true , "contain": true , "wrapAround": true}'
   >
     <div class="gallery-cell"><div class="card">
       <img src="assets/img/plantateste.png" alt="" />
@@ -126,6 +133,19 @@
       </p>
     </div></div>
 </div>
+</section>
+
+
+<section class="sobre"> 
+
+    
+  <img class="fotoperfil" src="assets/img/fotomariaclara.png" alt="Foto Maria Clara">
+  <h2>Maria Clara</h2>
+
+  <div class="redes"><a href="https://www.instagram.com/mariaclara.reis/" target="_blank"><i class='bx bxl-instagram-alt'></i></a> <a  target="_blank" href="https://twitter.com/mariabriofita"> <i class='bx bxl-twitter'></i></a></div>
+
+  <p>Sometimes I ask the universe for signs just to ignore them</p>
+
 </section>
 
     
