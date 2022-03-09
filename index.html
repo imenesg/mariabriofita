@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
@@ -22,23 +22,24 @@
 
     <!--CSS e jquery para o carousel funciona-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-     <!--CSS e jquery para o carousel funciona-->
+    <!--CSS e jquery para o carousel funciona-->
 
     <title>MariaBriofita</title>
 
-    <link rel="stylesheet" href="assets/css/body.css">
-    <link rel="stylesheet" href="assets/css/vetores.css">
+    <link rel="stylesheet" href="assets/css/body.css" />
+    <link rel="stylesheet" href="assets/css/vetores.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/card.css" />
     <link rel="stylesheet" href="assets/css/flickity.css" />
-    <link rel="stylesheet" href="assets/css/plantas.css">
-    <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/plantas.css" />
+    <link rel="stylesheet" href="assets/css/sobre.css" />
   </head>
   <body>
-    
-    
     <header>
       <div class="container">
         <img src="assets/img/logomariabriofita.png" alt="Logo mariabriofita" />
@@ -46,108 +47,59 @@
     </header>
 
     <section class="plantas">
-      
-       <!-- Flickity HTML init -->
-    <div
-    class="gallery js-flickity"
-    data-flickity-options='{ "freeScroll": true , "contain": true , "wrapAround": true}'
-  >
-    <div class="gallery-cell"><div class="card">
-      <img src="assets/img/plantateste.png" alt="" />
-      <h3>Planta</h3>
-      <div class="plantaInfos">
-        <ul class="ul">
-          <li><i class="material-icons"> water_drop </i>Diaria</li>
-          <li><i class="material-icons"> light_mode </i>Meia sombra</li>
-        </ul>
+      <!-- Flickity HTML init -->
+      <div
+        class="gallery js-flickity"
+        data-flickity-options='{ "freeScroll": true , "contain": true }' 
+      > <!--, "wrapAround": true--> 
+      <!--Inicio  gallery js-flickity-->
+        <div class="gallery-cell">
+          
+          <!--///////////////////////-->
+          <div class="card">
+            <img src="assets/img/fotoplantas/jiboia.jpeg" alt="" />
+            <h3>Jiboia </h3>
+            <div class="plantaInfos">
+              <ul class="ul">
+                <li><i class="material-icons"> water_drop </i>2 a 3 vezes por semana</li>
+                <li><i class="material-icons"> light_mode </i>Meia sombra / luz indireta</li>
+              </ul>
+            </div>
+            <p class="paragrafoPlanta">
+              A Jiboia é uma trepadeira que se dá bem em variados tipos de ambientes e não demanda tantos cuidados. cresce rápido e se alastra com facilidade pela casa. existem inúmeras variedades de jiboia, e para fazer uma muda, basta cortar um galho e colocá-lo na água até criar raízes.
+            </p>
+          </div>
+          <!--///////////////////////-->
+
+
+        </div>
+
+        
+        
+
+
+      <!--Final gallery js-flickity-->
       </div>
-      <p class="paragrafoPlanta">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration
-      </p>
-    </div></div>
-    <div class="gallery-cell"><div class="card">
-      <img src="assets/img/plantateste.png" alt="" />
-      <h3>Planta</h3>
-      <div class="plantaInfos">
-        <ul class="ul">
-          <li><i class="material-icons"> water_drop </i>Diaria</li>
-          <li><i class="material-icons"> light_mode </i>Meia sombra</li>
-        </ul>
+    </section>
+
+    <section class="sobre">
+      <img
+        class="fotoperfil"
+        src="assets/img/fotomariaclara.png"
+        alt="Foto Maria Clara"
+      />
+      <h2>Maria Clara</h2>
+
+      <div class="redes">
+        <a href="https://www.instagram.com/mariaclara.reis/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a target="_blank" href="https://twitter.com/mariabriofita">
+          <i class="bx bxl-twitter"></i
+        ></a>
       </div>
-      <p class="paragrafoPlanta">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration
-      </p>
-    </div></div>
-    <div class="gallery-cell"><div class="card">
-      <img src="assets/img/plantateste.png" alt="" />
-      <h3>Planta</h3>
-      <div class="plantaInfos">
-        <ul class="ul">
-          <li><i class="material-icons"> water_drop </i>Diaria</li>
-          <li><i class="material-icons"> light_mode </i>Meia sombra</li>
-        </ul>
-      </div>
-      <p class="paragrafoPlanta">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration
-      </p>
-    </div></div>
-    <div class="gallery-cell"><div class="card">
-      <img src="assets/img/plantateste.png" alt="" />
-      <h3>Planta</h3>
-      <div class="plantaInfos">
-        <ul class="ul">
-          <li><i class="material-icons"> water_drop </i>Diaria</li>
-          <li><i class="material-icons"> light_mode </i>Meia sombra</li>
-        </ul>
-      </div>
-      <p class="paragrafoPlanta">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration
-      </p>
-    </div></div>
-    <div class="gallery-cell"><div class="card">
-      <img src="assets/img/plantateste.png" alt="" />
-      <h3>Planta</h3>
-      <div class="plantaInfos">
-        <ul class="ul">
-          <li><i class="material-icons"> water_drop </i>Diaria</li>
-          <li><i class="material-icons"> light_mode </i>Meia sombra</li>
-        </ul>
-      </div>
-      <p class="paragrafoPlanta">
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have suffered alteration There are many variations of
-        passages of Lorem Ipsum available, but the majority have suffered
-        alteration
-      </p>
-    </div></div>
-</div>
-</section>
 
-
-<section class="sobre"> 
-
-    
-  <img class="fotoperfil" src="assets/img/fotomariaclara.png" alt="Foto Maria Clara">
-  <h2>Maria Clara</h2>
-
-  <div class="redes"><a href="https://www.instagram.com/mariaclara.reis/" target="_blank"><i class='bx bxl-instagram-alt'></i></a> <a  target="_blank" href="https://twitter.com/mariabriofita"> <i class='bx bxl-twitter'></i></a></div>
-
-  <p>Sometimes I ask the universe for signs just to ignore them</p>
-
-</section>
-
-    
+      <p>Sometimes I ask the universe for signs just to ignore them</p>
+    </section>
   </body>
 </html>
